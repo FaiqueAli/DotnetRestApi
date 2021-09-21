@@ -7,6 +7,8 @@ namespace testreactapp.Data
     {
         List<Person> personList=new  List<Person> {
              new Person{ID=0,Name="Faiq", Address="Passau"},
+             new Person{ID=0,Name="Ahmad", Address="Karachi"},
+             new Person{ID=0,Name="Riz", Address="hyderabad"},
              new Person{ID=1,Name="Ali", Address="Dubai"}
             };
         public void CreatePerson(Person P)
