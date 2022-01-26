@@ -36,7 +36,6 @@ namespace testreactapp.Controllers
             if(P!=null)
                 {
                     _repository.CreatePerson(P);
-                  
                 }
         }
 
