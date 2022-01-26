@@ -22,6 +22,7 @@ namespace testreactapp.Controllers
             var _person= _repository.GetPersons();
              return Ok(_person);
         }
+        //call a person data by its ID
         [HttpGet("{id}")]
         public ActionResult<Person> GetPersonBeID(int id)
         {
